@@ -1,0 +1,14 @@
+# Ignore .env file
+.env
+notes.txt
+
+# Ignore activities folder
+/activities/
+
+#anything working or test
+working*
+test*
+local*
+**/.DS_Store
+**/test*
+**/__pycache__/
