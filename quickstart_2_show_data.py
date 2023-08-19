@@ -50,8 +50,8 @@ while True:
         break
 
     for obj in objects_list:
-        # truncate question to 10 characters 
-        truncated_question = obj["question"][:30] + '...' if len(obj["question"]) > 10 else obj["question"]
+        # truncate question to 50 characters 
+        truncated_question = obj["question"][:50] + '...' if len(obj["question"]) > 10 else obj["question"]
         # rearrange data
         row_data = [obj["_additional"]["id"], obj["_additional"]["creationTimeUnix"], obj["category"], truncated_question]
         
